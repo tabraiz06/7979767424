@@ -1,0 +1,699 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Forma+DJR+Deck:wght@400;500;700&display=swap');
+
+nav {
+  font-family: Forma DJR Deck;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  .MainLogo{
+    height: calc(3vh + 1rem );
+  }
+}
+.slide1 {
+  div {
+    h2 {
+      font-family: Forma DJR Deck;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 60px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      span {
+        color: #e94724;
+        font-family: Forma DJR Deck;
+        
+        font-weight: 700;
+        line-height: 60px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+    }
+    p {
+      color: #000000;
+
+      font-family: Forma DJR Deck;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
+}
+.slide2 {
+  h2 {
+    color: #000000;
+    font-family: Forma DJR Deck;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    span {
+      color: #ea4722;
+    }
+  }
+  p {
+    color: #000000;
+
+    font-family: Forma DJR Deck;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  button {
+    width: 268px;
+    height: 52px;
+    top: 590px;
+    left: 79px;
+    padding: 14px 19px 14px 19px;
+    gap: 10px;
+    border-radius: 62px;
+    opacity: 0px;
+  }
+}
+.slide3 {
+  h2 {
+    color: #000000;
+    font-family: Forma DJR Deck;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    span {
+      color: #ea4722;
+    }
+  }
+  p {
+    color: #000000;
+
+    font-family: Forma DJR Deck;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  button {
+    width: 268px;
+    height: 52px;
+    top: 590px;
+    left: 79px;
+    padding: 14px 19px 14px 19px;
+    gap: 10px;
+    border-radius: 62px;
+    opacity: 0px;
+  }
+}
+.slide4 {
+  h2 {
+    color: #000000;
+    font-family: Forma DJR Deck;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    span {
+      color: #ea4722;
+    }
+  }
+  p {
+    color: #000000;
+
+    font-family: Forma DJR Deck;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  button {
+    width: 268px;
+    height: 52px;
+    top: 590px;
+    left: 79px;
+    padding: 14px 19px 14px 19px;
+    gap: 10px;
+    border-radius: 62px;
+    opacity: 0px;
+  }
+}
+.line {
+  position: relative;
+  width: 698px;
+  height: 14px;
+  margin-top: 1.5rem;
+  left: -160px;
+  gap: 0px;
+  opacity: 0px;
+  background: #edaa20;
+}
+.text {
+  h1 {
+    color: #000000;
+
+    font-family: Forma DJR Deck;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    span {
+      color: #ea4722;
+    }
+  }
+}
+.slider {
+  h2 {
+    font-family: Forma DJR Deck;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  p {
+    font-family: Forma DJR Deck;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+  }
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.custom-slider {
+  width: 35px !important;
+}
+body {
+  background: #ffffff;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  .item {
+    display: flex;
+
+    img {
+      width: 40.01px;
+      height: 48.01px;
+      top: 2005px;
+      left: 593px;
+      gap: 0px;
+      border: 3px 0px 0px 0px;
+      opacity: 0px;
+    }
+    p {
+      font-family: Forma DJR Deck;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 28.82px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: #000000;
+    }
+  }
+}
+.container1 {
+  text-align: left;
+  h2 {
+    width: 420px;
+    height: 240px;
+    top: 1937px;
+    left: 92px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Forma DJR Deck;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    span {
+      color: #ea4722;
+    }
+  }
+  button {
+    width: 114px;
+    height: 52px;
+    top: 2204px;
+    left: 92px;
+    padding: 14px 19px 14px 19px;
+    gap: 10px;
+    border-radius: 62px;
+    opacity: 0px;
+    margin-top: 2rem;
+  }
+}
+.ellipse {
+  position: relative;
+  width: 161px;
+  height: 161px;
+  top: -326px;
+  left: -32px;
+  gap: 0px;
+  opacity: 0px;
+}
+.ellipse2 {
+  position: relative;
+  width: 227px;
+  height: 227px;
+  bottom: -310px;
+  /* top: 2364px; */
+  /* left: 1397px; */
+  right: -35px;
+  gap: 0px;
+  opacity: 0px;
+}
+.trust1 {
+  h2 {
+    font-family: Forma DJR Deck;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
+.trust1 {
+  h2 {
+    width: 418px;
+    height: 120px;
+    top: 2613px;
+    left: 95px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Forma DJR Deck;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    span {
+      color: #ea4722;
+    }
+  }
+}
+.Partner0 {
+  width: 158px;
+  height: 140px;
+  top: 2784px;
+  left: 95px;
+  gap: 0px;
+  opacity: 0px;
+}
+.Partner1 {
+  width: 160px;
+  height: 140px;
+  top: 2784px;
+  left: 403px;
+  gap: 0px;
+  opacity: 0px;
+}
+.Partner2 {
+  width: 175.96px;
+  height: 140px;
+  top: 2784px;
+  left: 713px;
+  gap: 0px;
+  opacity: 0px;
+}
+.Partner3 {
+  width: 234.63px;
+  height: 140px;
+  top: 2784px;
+  left: 1038.96px;
+  gap: 0px;
+  opacity: 0px;
+}
+.img0 {
+  width: 384.72px;
+  height: 71.68px;
+  top: 3028.19px;
+  left: 111px;
+  gap: 0px;
+  opacity: 0px;
+}
+.img1 {
+  width: 375px;
+  height: 103px;
+  top: 3013px;
+  left: 531px;
+  gap: 0px;
+  opacity: 0px;
+}
+.img2 {
+  width: 176.82px;
+  height: 102.06px;
+  top: 3013px;
+  left: 911px;
+  gap: 0px;
+  opacity: 0px;
+}
+.img3 {
+  width: 263px;
+  height: 90px;
+  top: 3019px;
+  left: 1096px;
+  gap: 0px;
+  opacity: 0px;
+}
+.line2 {
+  position: relative;
+  width: 367px;
+  height: 15px;
+  /* top: 3260px; */
+  /* left: 1185px; */
+  right: 0;
+  gap: 0px;
+  opacity: 0px;
+  background: #e94724;
+}
+.textMask {
+  /* width: 412px;
+  height: 277px;
+  top: 3505px;
+  left: 95px; */
+  /* gap: 0px; */
+  border-radius: 62px 0px 0px 0px;
+  opacity: 0px;
+  h2 {
+    font-family: Forma DJR Deck;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    span {
+      color: #ea4722;
+    }
+  }
+  button {
+    width: 176px;
+    height: 50px;
+    top: 3732px;
+    left: 95px;
+    gap: 0px;
+    border-radius: 62px;
+    opacity: 0px;
+    background: #30a981;
+  }
+}
+.mask {
+  width: 1217px;
+  height: 812px;
+  top: 3351px;
+  left: 531px;
+  gap: 0px;
+  opacity: 0px;
+}
+.logo {
+  img {
+    width: 337px;
+    height: 67px;
+    top: 4187px;
+    left: 95px;
+    gap: 0px;
+    opacity: 0px;
+  }
+}
+.spantag {
+  font-family: Forma DJR Deck;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+  hr {
+    
+    width: 124px;
+    height: 4px;
+    top: 4360px;
+    left: 317px;
+    gap: 0px;
+    border: 4px;
+    opacity: 0px;
+    background: #e94724;
+  }
+}
+@media (max-width: 900px) {
+  .trustMain{
+    padding: 2rem;
+  }
+.carouselMain{
+    justify-content: space-between;
+    
+  }
+}
+@media (max-width: 768px) {
+  .footerMain{
+    .footerText{
+      flex-direction: column;
+    }
+    padding: 1rem;
+    margin-top: 0;
+    .logo{
+      img{
+        width: 200px;
+        height: 50px;
+      }
+    }
+    .spantag{
+      hr{
+        width: 100px;
+      }
+    }
+
+  }
+  .contactMain{
+    .mask{
+        width: 100%;
+        height: 100%;
+      }
+    margin-top: 1rem;
+    .textMask{
+      
+      padding: 1rem;
+      h2{
+        font-size: 30px;
+        height: auto;
+        width: auto;
+      }
+      button{
+        width: 150px;
+        height: 40px;
+      }
+    }
+  }
+  .Partner0{
+    width: 100px;
+    height: 100px;
+  }
+  .Partner1{
+    width: 100px;
+    height: 100px;
+  }
+  .Partner2{
+    width: 100px;
+    height: 100px;
+  }
+  .Partner3{
+    width: 100px;
+    height: 100px;
+  }
+  .img0{
+    width: 200px;
+    height: 50px;
+  }
+  .img1{
+    width: 200px;
+    height: 50px;
+  }
+  .img2{
+    width: 200px;
+    height: 50px;
+  }
+  .img3{
+    width: 200px;
+    height: 50px;
+  }
+
+  .trust1{
+    gap: 1rem;
+    .trustImages{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    h2{
+      font-size: 30px;
+      height: auto;
+      width: auto;
+    }
+  }
+  .ellipse{
+    visibility: hidden;
+  }
+  .ellipse2{
+    visibility: hidden;
+  }
+  .aboutMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sliderMain{
+    padding: 1rem;
+    .sliderContainer{
+      padding: 0rem;
+    }
+  }
+  .hero{
+    display: flex;
+    flex-direction: column;
+  }
+  .carouselMain{
+   height: 75vh;
+    .firstCarousel{
+      width: 100%;
+    }
+  }
+  .slide1 {
+    div {
+      h2 {
+        font-size: 20px;
+        line-height: 40px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+  }
+  .slide2 {
+    h2 {
+      font-size: 20px;
+      line-height: 40px;
+    }
+    p {
+      font-size: 12px;
+      line-height: 20px;
+    }
+    button {
+      width: 200px;
+      height: 40px;
+      padding: 10px 15px 10px 15px;
+    }
+  }
+  .slide3 {
+    h2 {
+      font-size: 20px;
+      line-height: 40px;
+    }
+    p {
+      font-size: 12px;
+      line-height: 20px;
+    }
+    button {
+      width: 200px;
+      height: 40px;
+      padding: 10px 15px 10px 15px;
+    }
+  }
+  .slide4 {
+    h2 {
+      font-size: 20px;
+      line-height: 40px;
+    }
+    p {
+      font-size: 12px;
+      line-height: 20px;
+    }
+    button {
+      width: 200px;
+      height: 40px;
+      padding: 10px 15px 10px 15px;
+    }
+  }
+  .line {
+    width: 300px;
+  }
+  .text {
+    h1 {
+      font-size: 30px;
+      line-height: 50px;
+    }
+  }
+  .slider {
+    h2 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 20px;
+    }
+  }
+  .items {
+    .item {
+      img {
+        width: 30px;
+        height: 40px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+  }
+  .container1 {
+    margin-bottom: 2rem;
+    h2 {
+      height: auto;
+      width: auto;
+      font-size: 30px;
+      line-height: 50px;
+    }
+    button {
+      width: auto;
+      height: auto;
+    }
+  }
+}
